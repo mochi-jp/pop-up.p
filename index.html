@@ -164,6 +164,13 @@
 
         window.addEventListener('resize', restrictPosition);
         restrictPosition(); // 初期位置調整
+        <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(() => console.log('Service Worker Registered'));
+}
+</script>
+
     </script>
 </body>
 </html>
