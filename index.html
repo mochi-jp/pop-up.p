@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/pop-up.p/manifest.json">
     <meta name="theme-color" content="#f0f0f0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -166,7 +166,7 @@
         restrictPosition(); // 初期位置調整
         <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js')
+  navigator.serviceWorker.register("/pop-up.p/manifest.json")
     .then(() => console.log('Service Worker Registered'));
 }
 </script>
