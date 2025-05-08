@@ -1,7 +1,7 @@
 {
   "name": "もっちー電卓",
   "short_name": "電卓",
-  "start_url": "./",
+  "start_url": "/pop-up.p/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#f0f0f0",
