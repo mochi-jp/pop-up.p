@@ -166,7 +166,7 @@
         restrictPosition(); // 初期位置調整
         <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register("/pop-up.p/manifest.json")
+  navigator.serviceWorker.register("/pop-up.p/service-worker.js")
     .then(() => console.log('Service Worker Registered'));
 }
 </script>
